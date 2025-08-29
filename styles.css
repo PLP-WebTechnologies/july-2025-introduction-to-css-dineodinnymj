@@ -1,0 +1,76 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* General page styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Header */
+  header {
+    background: #4a90e2;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  header h1 {
+    margin-bottom: 10px;
+  }
+  
+  /* Navigation */
+  .nav-list {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav-list a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background 0.3s;
+  }
+  
+  .nav-list a:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Main sections */
+  .intro, .content {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Cards */
+  .card {
+    background: #e9f2fb;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 6px;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    font-size: 0.9em;
+    padding: 15px;
+    margin-top: 20px;
+    background: #4a90e2;
+    color: white;
+    border-radius: 8px;
+  }
+  
